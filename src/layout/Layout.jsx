@@ -1,18 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Outlet } from 'react-router-dom';
+import Navbar from '../components/Navbar/Navbar';
+import Footer from '../components/Footer/Footer';
+import styles from './Layout.module.css';
 
 const Layout = () => {
+  const [language, setLanguage] = useState('en');
+
   return (
-    <div>
-      <header>
-        <h1>My App</h1>
-      </header>
-      <main>
-        <Outlet />
+    <div className={styles.layout}>
+      <Navbar language={language} setLanguage={setLanguage} />
+      <main className={styles.main}>
+        <Outlet context={[language, setLanguage]} />
       </main>
-      <footer>
-        <p>Footer content</p>
-      </footer>
+      <Footer language={language} />
     </div>
   );
 };

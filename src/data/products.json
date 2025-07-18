@@ -1,20 +1,86 @@
 [
   {
     "id": 1,
-    "name": "Product 1",
-    "price": 10.99,
-    "description": "Description for product 1"
+    "name": "Standard Pipe Marking Tape",
+    "dimensions": "50mm x 33m",
+    "price": 29.99,
+    "description": "Industry-standard pipe marking tape designed for marine environments. BS1710 compliant with excellent durability and adhesion properties.",
+    "features": [
+      "saltwaterResistant",
+      "uvStable", 
+      "bs1710Compliant", 
+      "extremeDurability"
+    ],
+    "image": "/src/assets/product1.jpg"
   },
   {
     "id": 2,
-    "name": "Product 2",
-    "price": 20.99,
-    "description": "Description for product 2"
+    "name": "High Visibility Pipe Marking Tape",
+    "dimensions": "100mm x 33m",
+    "price": 39.99,
+    "description": "Enhanced visibility pipe marking tape with reflective properties for low-light environments. Perfect for emergency systems and critical pipelines.",
+    "features": [
+      "highVisibility", 
+      "nightSafety", 
+      "weatherProof", 
+      "customText"
+    ],
+    "image": "/src/assets/product2.jpg"
   },
   {
     "id": 3,
-    "name": "Product 3",
-    "price": 30.99,
-    "description": "Description for product 3"
+    "name": "Premium Pipe Identification System",
+    "dimensions": "Various sizes available",
+    "price": 59.99,
+    "description": "Complete pipe identification system including tapes, tags, and markers. Features custom text options and multiple symbols for comprehensive identification.",
+    "features": [
+      "symbolOptions", 
+      "permanentAdhesive", 
+      "emergencySystems", 
+      "quickRecognition"
+    ],
+    "image": "/src/assets/product3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Marine-Grade Flow Direction Markers",
+    "dimensions": "25mm x 30m",
+    "price": 24.99,
+    "description": "Specialized tape with clear directional arrows for indicating flow direction. Resistant to fading and chemical exposure.",
+    "features": [
+      "flowDirection", 
+      "clearArrows", 
+      "fadeResistant", 
+      "chemicalResistant"
+    ],
+    "image": "/src/assets/product4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Fire System Identification Tape",
+    "dimensions": "50mm x 25m",
+    "price": 34.99,
+    "description": "Fire-resistant pipe marking tape specifically designed for emergency and fire suppression systems. High temperature resistance and IMO approved.",
+    "features": [
+      "fireResistant", 
+      "imoApproved", 
+      "highVisibility", 
+      "extremeDurability"
+    ],
+    "image": "/src/assets/product5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Custom Text Pipe Marking Solution",
+    "dimensions": "Custom sizes available",
+    "price": 49.99,
+    "description": "Fully customizable pipe marking solution with your choice of text, symbols, colors, and sizes. Made to order for specific marine applications.",
+    "features": [
+      "customText", 
+      "symbolOptions", 
+      "bs1710Compliant", 
+      "permanentAdhesive"
+    ],
+    "image": "/src/assets/product6.jpg"
   }
 ]

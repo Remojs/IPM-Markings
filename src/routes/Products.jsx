@@ -1,11 +1,18 @@
 import React from 'react';
+import { useOutletContext } from 'react-router-dom';
+import Products from '../components/Products/Products';
+import Contact from '../components/Contact/Contact';
 
-const Products = () => {
+const ProductsPage = () => {
+  const [language] = useOutletContext();
+
   return (
     <div>
-      <h1>Products Page</h1>
+      <div style={{ paddingTop: '5rem' }}></div>
+      <Products language={language} />
+      <Contact language={language} />
     </div>
   );
 };
 
-export default Products;
+export default ProductsPage;
