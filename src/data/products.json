@@ -2,371 +2,740 @@
   {
     "id": 5001,
     "name": "Waste Media",
-    "image": "/src/assets/ISO/5001"
+    "name_en": "Waste Media Pipe",
+    "name_es": "Cinta para Desechos",
+    "image": "/src/assets/ISO/5001.png",
+    "isoNumber": "5001",
+    "description_en": "High-quality pipe marking tape for waste media identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías de alta calidad para identificación de desechos, adecuada para entornos marinos."
   },
   {
     "id": 5002,
     "name": "Black Water",
-    "image": "/src/assets/ISO/5002"
+    "name_en": "Black Water Pipe",
+    "name_es": "Cinta para Aguas Negras",
+    "image": "/src/assets/ISO/5002.png",
+    "isoNumber": "5002",
+    "description_en": "Durable pipe marking tape for black water identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de aguas negras, adecuada para entornos marinos."
   },
   {
     "id": 5003,
     "name": "Waste oil / Used Oil",
-    "image": "/src/assets/ISO/5003"
+    "name_en": "Waste Oil / Used Oil Pipe",
+    "name_es": "Cinta para Aceite Usado",
+    "image": "/src/assets/ISO/5003.png",
+    "isoNumber": "5003",
+    "description_en": "Durable pipe marking tape for waste oil identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de aceite usado, adecuada para entornos marinos."
   },
   {
     "id": 5004,
     "name": "Bilge Water",
-    "image": "/src/assets/ISO/5004"
+    "name_en": "Bilge Water Pipe",
+    "name_es": "Cinta para Agua de Sentina",
+    "image": "/src/assets/ISO/5004.png",
+    "isoNumber": "5004",
+    "description_en": "Durable pipe marking tape for bilge water identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de agua de sentina, adecuada para entornos marinos."
   },
   {
     "id": 5005,
     "name": "Exhaust Gas",
-    "image": "/src/assets/ISO/5005"
+    "name_en": "Exhaust Gas Pipe",
+    "name_es": "Cinta para Gas de Escape",
+    "image": "/src/assets/ISO/5005.png",
+    "isoNumber": "5005",
+    "description_en": "Heat-resistant pipe marking tape for exhaust gas identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías resistente al calor para identificación de gas de escape, adecuada para entornos marinos."
   },
   {
     "id": 5006,
     "name": "Grey Water",
-    "image": "/src/assets/ISO/5006"
+    "name_en": "Grey Water Pipe",
+    "name_es": "Cinta para Aguas Grises",
+    "image": "/src/assets/ISO/5006.png",
+    "isoNumber": "5006",
+    "description_en": "Durable pipe marking tape for grey water identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de aguas grises, adecuada para entornos marinos."
   },
   {
     "id": 5007,
     "name": "Sewage, Contaminated",
-    "image": "/src/assets/ISO/5007"
+    "name_en": "Contaminated Sewage Pipe",
+    "name_es": "Cinta para Aguas Residuales Contaminadas",
+    "image": "/src/assets/ISO/5007.png",
+    "isoNumber": "5007",
+    "description_en": "Durable pipe marking tape for contaminated sewage identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de aguas residuales contaminadas, adecuada para entornos marinos."
   },
   {
     "id": 5008,
     "name": "Fresh Water",
-    "image": "/src/assets/ISO/5008"
+    "name_en": "Fresh Water Pipe",
+    "name_es": "Cinta para Agua Dulce",
+    "image": "/src/assets/ISO/5008.png",
+    "isoNumber": "5008",
+    "description_en": "Durable pipe marking tape for fresh water identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de agua dulce, adecuada para entornos marinos."
   },
   {
     "id": 5009,
     "name": "Fresh Water, Sanitary",
-    "image": "/src/assets/ISO/5009"
+    "name_en": "Sanitary Fresh Water Pipe",
+    "name_es": "Cinta para Agua Dulce Sanitaria",
+    "image": "/src/assets/ISO/5009",
+    "isoNumber": "5009",
+    "description_en": "Durable pipe marking tape for sanitary fresh water identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de agua dulce sanitaria, adecuada para entornos marinos."
   },
   {
     "id": 5010,
     "name": "Potable Water",
-    "image": "/src/assets/ISO/5010"
+    "name_en": "Potable Water Pipe",
+    "name_es": "Cinta para Agua Potable",
+    "image": "/src/assets/ISO/5010",
+    "isoNumber": "5010",
+    "description_en": "Durable pipe marking tape for potable water identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de agua potable, adecuada para entornos marinos."
   },
   {
     "id": 5011,
     "name": "Destillate",
-    "image": "/src/assets/ISO/5011"
+    "name_en": "Distillate Pipe",
+    "name_es": "Cinta para Destilado",
+    "image": "/src/assets/ISO/5011",
+    "isoNumber": "5011",
+    "description_en": "Durable pipe marking tape for distillate identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de destilado, adecuada para entornos marinos."
   },
   {
     "id": 5012,
     "name": "Gas‑turbine Wash Water",
-    "image": "/src/assets/ISO/5012"
+    "name_en": "Gas-turbine Wash Water Pipe",
+    "name_es": "Cinta para Agua de Lavado de Turbina de Gas",
+    "image": "/src/assets/ISO/5012",
+    "isoNumber": "5012",
+    "description_en": "Durable pipe marking tape for gas-turbine wash water identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de agua de lavado de turbina de gas, adecuada para entornos marinos."
   },
   {
     "id": 5014,
     "name": "Feed Water",
-    "image": "/src/assets/ISO/5014"
+    "name_en": "Feed Water Pipe",
+    "name_es": "Cinta para Agua de Alimentación",
+    "image": "/src/assets/ISO/5014",
+    "isoNumber": "5014",
+    "description_en": "Durable pipe marking tape for feed water identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de agua de alimentación, adecuada para entornos marinos."
   },
   {
     "id": 5015,
     "name": "Cooling Fresh Water",
-    "image": "/src/assets/ISO/5015"
+    "name_en": "Cooling Fresh Water Pipe",
+    "name_es": "Cinta para Agua Dulce de Refrigeración",
+    "image": "/src/assets/ISO/5015",
+    "isoNumber": "5015",
+    "description_en": "Durable pipe marking tape for cooling fresh water identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de agua dulce de refrigeración, adecuada para entornos marinos."
   },
   {
     "id": 5016,
     "name": "Chilled Water",
-    "image": "/src/assets/ISO/5016"
+    "name_en": "Chilled Water Pipe",
+    "name_es": "Cinta para Agua Refrigerada",
+    "image": "/src/assets/ISO/5016",
+    "isoNumber": "5016",
+    "description_en": "Durable pipe marking tape for chilled water identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de agua refrigerada, adecuada para entornos marinos."
   },
   {
     "id": 5017,
     "name": "Condensate",
-    "image": "/src/assets/ISO/5017"
+    "name_en": "Condensate Pipe",
+    "name_es": "Cinta para Condensado",
+    "image": "/src/assets/ISO/5017",
+    "isoNumber": "5017",
+    "description_en": "Durable pipe marking tape for condensate identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de condensado, adecuada para entornos marinos."
   },
   {
     "id": 5018,
     "name": "Fuel",
-    "image": "/src/assets/ISO/5018"
+    "name_en": "Fuel Pipe",
+    "name_es": "Cinta para Combustible",
+    "image": "/src/assets/ISO/5018",
+    "isoNumber": "5018",
+    "description_en": "Durable pipe marking tape for fuel identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de combustible, adecuada para entornos marinos."
   },
   {
     "id": 5019,
     "name": "Heavy Fuel (HFO)",
-    "image": "/src/assets/ISO/5019"
+    "name_en": "Heavy Fuel (HFO) Pipe",
+    "name_es": "Cinta para Combustible Pesado (HFO)",
+    "image": "/src/assets/ISO/5019",
+    "isoNumber": "5019",
+    "description_en": "Durable pipe marking tape for heavy fuel identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de combustible pesado, adecuada para entornos marinos."
   },
   {
     "id": 5020,
     "name": "Aviation Fuel",
-    "image": "/src/assets/ISO/5020"
+    "name_en": "Aviation Fuel Pipe",
+    "name_es": "Cinta para Combustible de Aviación",
+    "image": "/src/assets/ISO/5020",
+    "isoNumber": "5020",
+    "description_en": "Durable pipe marking tape for aviation fuel identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de combustible de aviación, adecuada para entornos marinos."
   },
   {
     "id": 5022,
     "name": "Biological Fuel",
-    "image": "/src/assets/ISO/5022"
+    "name_en": "Biological Fuel Pipe",
+    "name_es": "Cinta para Combustible Biológico",
+    "image": "/src/assets/ISO/5022.png",
+    "isoNumber": "5022",
+    "description_en": "Durable pipe marking tape for biological fuel identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de combustible biológico, adecuada para entornos marinos."
   },
   {
     "id": 5023,
     "name": "Gas‑Turbine Fuel",
-    "image": "/src/assets/ISO/5023"
+    "name_en": "Gas‑Turbine Fuel Pipe",
+    "name_es": "Cinta para Combustible de Turbina de Gas",
+    "image": "/src/assets/ISO/5023.png",
+    "isoNumber": "5023",
+    "description_en": "Durable pipe marking tape for gas‑turbine fuel identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de combustible de turbina de gas, adecuada para entornos marinos."
   },
   {
     "id": 5024,
     "name": "Diesel Fuel (MDO)",
-    "image": "/src/assets/ISO/5024"
+    "name_en": "Diesel Fuel (MDO) Pipe",
+    "name_es": "Cinta para Combustible Diésel (MDO)",
+    "image": "/src/assets/ISO/5024.png",
+    "isoNumber": "5024",
+    "description_en": "Durable pipe marking tape for diesel fuel (MDO) identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de combustible diésel (MDO), adecuada para entornos marinos."
   },
   {
     "id": 5091,
     "name": "Flammable Gases",
-    "image": "/src/assets/ISO/5091"
+    "name_en": "Flammable Gases Pipe",
+    "name_es": "Cinta para Gases Inflamables",
+    "image": "/src/assets/ISO/5091.png",
+    "isoNumber": "5091",
+    "description_en": "High-visibility pipe marking tape for flammable gases identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías de alta visibilidad para identificación de gases inflamables, adecuada para entornos marinos."
   },
   {
     "id": 5092,
     "name": "Hydrogen",
-    "image": "/src/assets/ISO/5092"
+    "name_en": "Hydrogen Pipe",
+    "name_es": "Cinta para Hidrógeno",
+    "image": "/src/assets/ISO/5092.png",
+    "isoNumber": "5092",
+    "description_en": "Durable pipe marking tape for hydrogen identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de hidrógeno, adecuada para entornos marinos."
   },
   {
     "id": 5093,
     "name": "Acetylene",
-    "image": "/src/assets/ISO/5093"
+    "name_en": "Acetylene Pipe",
+    "name_es": "Cinta para Acetileno",
+    "image": "/src/assets/ISO/5093.png",
+    "isoNumber": "5093",
+    "description_en": "Durable pipe marking tape for acetylene identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de acetileno, adecuada para entornos marinos."
   },
   {
     "id": 5094,
     "name": "Liquid Gas",
-    "image": "/src/assets/ISO/5094"
+    "name_en": "Liquid Gas Pipe",
+    "name_es": "Cinta para Gas Licuado",
+    "image": "/src/assets/ISO/5094.png",
+    "isoNumber": "5094",
+    "description_en": "Durable pipe marking tape for liquid gas identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de gas licuado, adecuada para entornos marinos."
   },
   {
     "id": 5079,
     "name": "Air in Ventilation System",
-    "image": "/src/assets/ISO/5079"
+    "name_en": "Air in Ventilation System Pipe",
+    "name_es": "Cinta para Aire en Sistema de Ventilación",
+    "image": "/src/assets/ISO/5079.png",
+    "isoNumber": "5079",
+    "description_en": "Durable pipe marking tape for ventilation system air identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de aire en sistema de ventilación, adecuada para entornos marinos."
   },
   {
     "id": 5080,
     "name": "Discharge Air",
-    "image": "/src/assets/ISO/5080"
+    "name_en": "Discharge Air Pipe",
+    "name_es": "Cinta para Aire de Descarga",
+    "image": "/src/assets/ISO/5080.png",
+    "isoNumber": "5080",
+    "description_en": "Durable pipe marking tape for discharge air identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de aire de descarga, adecuada para entornos marinos."
   },
   {
     "id": 5081,
     "name": "Mechanical Supply Air, Cold",
-    "image": "/src/assets/ISO/5081"
+    "name_en": "Mechanical Supply Air, Cold Pipe",
+    "name_es": "Cinta para Suministro Mecánico de Aire Frío",
+    "image": "/src/assets/ISO/5081.png",
+    "isoNumber": "5081",
+    "description_en": "Durable pipe marking tape for cold mechanical supply air identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de aire de suministro mecánico frío, adecuada para entornos marinos."
   },
   {
     "id": 5082,
     "name": "Natural Exhaust Air",
-    "image": "/src/assets/ISO/5082"
+    "name_en": "Natural Exhaust Air Pipe",
+    "name_es": "Cinta para Aire de Escape Natural",
+    "image": "/src/assets/ISO/5082.png",
+    "isoNumber": "5082",
+    "description_en": "Durable pipe marking tape for natural exhaust air identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de aire de escape natural, adecuada para entornos marinos."
   },
   {
     "id": 5083,
     "name": "Atmospheric Air",
-    "image": "/src/assets/ISO/5083"
+    "name_en": "Atmospheric Air Pipe",
+    "name_es": "Cinta para Aire Atmosférico",
+    "image": "/src/assets/ISO/5083.png",
+    "isoNumber": "5083",
+    "description_en": "Durable pipe marking tape for atmospheric air identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de aire atmosférico, adecuada para entornos marinos."
   },
   {
     "id": 5084,
     "name": "Mechanical Exhaust Air",
-    "image": "/src/assets/ISO/5084"
+    "name_en": "Mechanical Exhaust Air Pipe",
+    "name_es": "Cinta para Escape Mecánico de Aire",
+    "image": "/src/assets/ISO/5084.png",
+    "isoNumber": "5084",
+    "description_en": "Durable pipe marking tape for mechanical exhaust air identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de escape mecánico de aire, adecuada para entornos marinos."
   },
   {
     "id": 5085,
     "name": "Decontaminated Supply Air",
-    "image": "/src/assets/ISO/5085"
+    "name_en": "Decontaminated Supply Air Pipe",
+    "name_es": "Cinta para Suministro de Aire Descontaminado",
+    "image": "/src/assets/ISO/5085.png",
+    "isoNumber": "5085",
+    "description_en": "Durable pipe marking tape for decontaminated supply air identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de suministro de aire descontaminado, adecuada para entornos marinos."
   },
   {
     "id": 5086,
     "name": "Mechanical Recirculated Air",
-    "image": "/src/assets/ISO/5086"
+    "name_en": "Mechanical Recirculated Air Pipe",
+    "name_es": "Cinta para Aire Recirculado Mecánico",
+    "image": "/src/assets/ISO/5086.png",
+    "isoNumber": "5086",
+    "description_en": "Durable pipe marking tape for mechanical recirculated air identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de aire recirculado mecánico, adecuada para entornos marinos."
   },
   {
     "id": 5087,
     "name": "Decontaminated Supply Air, Warm",
-    "image": "/src/assets/ISO/5087"
+    "name_en": "Warm Decontaminated Supply Air Pipe",
+    "name_es": "Cinta para Suministro de Aire Descontaminado, Caliente",
+    "image": "/src/assets/ISO/5087.png",
+    "isoNumber": "5087",
+    "description_en": "Durable pipe marking tape for warm decontaminated supply air identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de suministro de aire descontaminado caliente, adecuada para entornos marinos."
   },
   {
     "id": 5088,
     "name": "Smoke Clearance",
-    "image": "/src/assets/ISO/5088"
+    "name_en": "Smoke Clearance Pipe",
+    "name_es": "Cinta para Evacuación de Humo",
+    "image": "/src/assets/ISO/5088.png",
+    "isoNumber": "5088",
+    "description_en": "Durable pipe marking tape for smoke clearance identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de evacuación de humo, adecuada para entornos marinos."
   },
   {
     "id": 5089,
     "name": "Conditioned Supply Air",
-    "image": "/src/assets/ISO/5089"
+    "name_en": "Conditioned Supply Air Pipe",
+    "name_es": "Cinta para Suministro de Aire Acondicionado",
+    "image": "/src/assets/ISO/5089.png",
+    "isoNumber": "5089",
+    "description_en": "Durable pipe marking tape for conditioned supply air identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de suministro de aire acondicionado, adecuada para entornos marinos."
   },
   {
     "id": 5090,
     "name": "Natural Supply Air",
-    "image": "/src/assets/ISO/5090"
+    "name_en": "Natural Supply Air Pipe",
+    "name_es": "Cinta para Suministro de Aire Natural",
+    "image": "/src/assets/ISO/5090.png",
+    "isoNumber": "5090",
+    "description_en": "Durable pipe marking tape for natural supply air identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de suministro de aire natural, adecuada para entornos marinos."
   },
   {
     "id": 5065,
     "name": "Fire Fighting / Protection",
-    "image": "/src/assets/ISO/5065"
+    "name_en": "Fire Fighting / Protection Pipe",
+    "name_es": "Cinta para Lucha contra Incendios / Protección",
+    "image": "/src/assets/ISO/5065.png",
+    "isoNumber": "5065",
+    "description_en": "High-visibility pipe marking tape for fire fighting and protection, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías de alta visibilidad para lucha contra incendios y protección, adecuada para entornos marinos."
   },
   {
     "id": 5067,
     "name": "Fire‑Fighting Water",
-    "image": "/src/assets/ISO/5067"
+    "name_en": "Fire‑Fighting Water Pipe",
+    "name_es": "Cinta para Agua de Extinción de Incendios",
+    "image": "/src/assets/ISO/5067.png",
+    "isoNumber": "5067",
+    "description_en": "Durable pipe marking tape for fire‑fighting water identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de agua de extinción de incendios, adecuada para entornos marinos."
   },
   {
     "id": 5068,
     "name": "Fire‑Fighting Gas",
-    "image": "/src/assets/ISO/5068"
+    "name_en": "Fire‑Fighting Gas Pipe",
+    "name_es": "Cinta para Gas de Extinción de Incendios",
+    "image": "/src/assets/ISO/5068.png",
+    "isoNumber": "5068",
+    "description_en": "Durable pipe marking tape for fire‑fighting gas identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de gas de extinción de incendios, adecuada para entornos marinos."
   },
   {
     "id": 5069,
     "name": "Sprinkler Water",
-    "image": "/src/assets/ISO/5069"
+    "name_en": "Sprinkler Water Pipe",
+    "name_es": "Cinta para Agua de Rociadores",
+    "image": "/src/assets/ISO/5069.png",
+    "isoNumber": "5069",
+    "description_en": "Durable pipe marking tape for sprinkler water identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de agua de rociadores, adecuada para entornos marinos."
   },
   {
     "id": 5070,
     "name": "Spray Water",
-    "image": "/src/assets/ISO/5070"
+    "name_en": "Spray Water Pipe",
+    "name_es": "Cinta para Agua Pulverizada",
+    "image": "/src/assets/ISO/5070.png",
+    "isoNumber": "5070",
+    "description_en": "Durable pipe marking tape for spray water identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de agua pulverizada, adecuada para entornos marinos."
   },
   {
     "id": 5071,
     "name": "Fire‑fighting Powder",
-    "image": "/src/assets/ISO/5071"
+    "name_en": "Fire‑fighting Powder Pipe",
+    "name_es": "Cinta para Polvo Extintor",
+    "image": "/src/assets/ISO/5071.png",
+    "isoNumber": "5071",
+    "description_en": "Durable pipe marking tape for fire‑fighting powder identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de polvo extintor, adecuada para entornos marinos."
   },
   {
     "id": 5072,
     "name": "Fire‑Fighting Foam",
-    "image": "/src/assets/ISO/5072"
+    "name_en": "Fire‑Fighting Foam Pipe",
+    "name_es": "Cinta para Espuma Extintora",
+    "image": "/src/assets/ISO/5072.png",
+    "isoNumber": "5072",
+    "description_en": "Durable pipe marking tape for fire‑fighting foam identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de espuma extintora, adecuada para entornos marinos."
   },
   {
     "id": 5050,
     "name": "Acids, Alkalis",
-    "image": "/src/assets/ISO/5050"
+    "name_en": "Acids and Alkalis Pipe",
+    "name_es": "Cinta para Ácidos y Álcalis",
+    "image": "/src/assets/ISO/5050.png",
+    "isoNumber": "5050",
+    "description_en": "Durable pipe marking tape for acids and alkalis identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de ácidos y álcalis, adecuada para entornos marinos."
   },
   {
     "id": 5052,
     "name": "Masses (Dry and Wet)",
-    "image": "/src/assets/ISO/5052"
+    "name_en": "Masses (Dry and Wet) Pipe",
+    "name_es": "Cinta para Masas (Secas y Húmedas)",
+    "image": "/src/assets/ISO/5052.png",
+    "isoNumber": "5052",
+    "description_en": "Durable pipe marking tape for masses (dry and wet) identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de masas (secas y húmedas), adecuada para entornos marinos."
   },
   {
     "id": 5099,
     "name": "Direction of Flow",
-    "image": "/src/assets/ISO/5099"
+    "name_en": "Direction of Flow Pipe",
+    "name_es": "Cinta para Dirección de Flujo",
+    "image": "/src/assets/ISO/5099.png",
+    "isoNumber": "5099",
+    "description_en": "Durable pipe marking tape indicating direction of flow, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías para indicar la dirección del flujo, adecuada para entornos marinos."
   },
   {
     "id": 5031,
     "name": "Sea Water",
-    "image": "/src/assets/ISO/5031"
+    "name_en": "Sea Water Pipe",
+    "name_es": "Cinta para Agua de Mar",
+    "image": "/src/assets/ISO/5031.png",
+    "isoNumber": "5031",
+    "description_en": "Durable pipe marking tape for sea water identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de agua de mar, adecuada para entornos marinos."
   },
   {
     "id": 5032,
     "name": "Decontamination Water",
-    "image": "/src/assets/ISO/5032"
+    "name_en": "Decontamination Water Pipe",
+    "name_es": "Cinta para Agua de Descontaminación",
+    "image": "/src/assets/ISO/5032.png",
+    "isoNumber": "5032",
+    "description_en": "Durable pipe marking tape for decontamination water identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de agua de descontaminación, adecuada para entornos marinos."
   },
   {
     "id": 5033,
     "name": "Sea Water, Sanitary",
-    "image": "/src/assets/ISO/5033"
+    "name_en": "Sanitary Sea Water Pipe",
+    "name_es": "Cinta para Agua de Mar Sanitaria",
+    "image": "/src/assets/ISO/5033.png",
+    "isoNumber": "5033",
+    "description_en": "Durable pipe marking tape for sanitary sea water identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de agua de mar sanitaria, adecuada para entornos marinos."
   },
   {
     "id": 5034,
     "name": "Ballast Water",
-    "image": "/src/assets/ISO/5034"
+    "name_en": "Ballast Water Pipe",
+    "name_es": "Cinta para Agua de Lastre",
+    "image": "/src/assets/ISO/5034.png",
+    "isoNumber": "5034",
+    "description_en": "Durable pipe marking tape for ballast water identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de agua de lastre, adecuada para entornos marinos."
   },
   {
     "id": 5035,
     "name": "Cooling Sea Water",
-    "image": "/src/assets/ISO/5035"
+    "name_en": "Cooling Sea Water Pipe",
+    "name_es": "Cinta para Agua de Mar de Refrigeración",
+    "image": "/src/assets/ISO/5035.png",
+    "isoNumber": "5035",
+    "description_en": "Durable pipe marking tape for cooling sea water identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de agua de mar de refrigeración, adecuada para entornos marinos."
   },
   {
     "id": 5038,
     "name": "Non Flammable Gases",
-    "image": "/src/assets/ISO/5038"
+    "name_en": "Non Flammable Gases Pipe",
+    "name_es": "Cinta para Gases No Inflamables",
+    "image": "/src/assets/ISO/5038.png",
+    "isoNumber": "5038",
+    "description_en": "Durable pipe marking tape for non flammable gases identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de gases no inflamables, adecuada para entornos marinos."
   },
   {
     "id": 5039,
     "name": "Oxygen",
-    "image": "/src/assets/ISO/5039"
+    "name_en": "Oxygen Pipe",
+    "name_es": "Cinta para Oxígeno",
+    "image": "/src/assets/ISO/5039.png",
+    "isoNumber": "5039",
+    "description_en": "Durable pipe marking tape for oxygen identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de oxígeno, adecuada para entornos marinos."
   },
   {
     "id": 5040,
     "name": "Inert Gas",
-    "image": "/src/assets/ISO/5040"
+    "name_en": "Inert Gas Pipe",
+    "name_es": "Cinta para Gas Inerte",
+    "image": "/src/assets/ISO/5040.png",
+    "isoNumber": "5040",
+    "description_en": "Durable pipe marking tape for inert gas identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de gas inerte, adecuada para entornos marinos."
   },
   {
     "id": 5041,
     "name": "Nitrogen",
-    "image": "/src/assets/ISO/5041"
+    "name_en": "Nitrogen Pipe",
+    "name_es": "Cinta para Nitrógeno",
+    "image": "/src/assets/ISO/5041.png",
+    "isoNumber": "5041",
+    "description_en": "Durable pipe marking tape for nitrogen identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de nitrógeno, adecuada para entornos marinos."
   },
   {
     "id": 5042,
     "name": "Refrigerant",
-    "image": "/src/assets/ISO/5042"
+    "name_en": "Refrigerant Pipe",
+    "name_es": "Cinta para Refrigerante",
+    "image": "/src/assets/ISO/5042.png",
+    "isoNumber": "5042",
+    "description_en": "Durable pipe marking tape for refrigerant identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de refrigerante, adecuada para entornos marinos."
   },
   {
     "id": 5043,
     "name": "Compressed Air LP",
-    "image": "/src/assets/ISO/5043"
+    "name_en": "Compressed Air LP Pipe",
+    "name_es": "Cinta para Aire Comprimido Baja Presión",
+    "image": "/src/assets/ISO/5043.png",
+    "isoNumber": "5043",
+    "description_en": "Durable pipe marking tape for low-pressure compressed air identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de aire comprimido baja presión, adecuada para entornos marinos."
   },
   {
     "id": 5045,
     "name": "Compressed Air HP",
-    "image": "/src/assets/ISO/5045"
+    "name_en": "Compressed Air HP Pipe",
+    "name_es": "Cinta para Aire Comprimido Alta Presión",
+    "image": "/src/assets/ISO/5045.png",
+    "isoNumber": "5045",
+    "description_en": "Durable pipe marking tape for high-pressure compressed air identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de aire comprimido alta presión, adecuada para entornos marinos."
   },
   {
     "id": 5046,
     "name": "Control Air / Regulating Air",
-    "image": "/src/assets/ISO/5046"
+    "name_en": "Control Air / Regulating Air Pipe",
+    "name_es": "Cinta para Aire de Control / Regulación",
+    "image": "/src/assets/ISO/5046.png",
+    "isoNumber": "5046",
+    "description_en": "Durable pipe marking tape for control/regulating air identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de aire de control/regulación, adecuada para entornos marinos."
   },
   {
     "id": 5047,
     "name": "Breathing Air",
-    "image": "/src/assets/ISO/5047"
+    "name_en": "Breathing Air Pipe",
+    "name_es": "Cinta para Aire de Respiración",
+    "image": "/src/assets/ISO/5047.png",
+    "isoNumber": "5047",
+    "description_en": "Durable pipe marking tape for breathing air identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de aire de respiración, adecuada para entornos marinos."
   },
   {
     "id": 5048,
     "name": "Breathing Gas",
-    "image": "/src/assets/ISO/5048"
+    "name_en": "Breathing Gas Pipe",
+    "name_es": "Cinta para Gas de Respiración",
+    "image": "/src/assets/ISO/5048.png",
+    "isoNumber": "5048",
+    "description_en": "Durable pipe marking tape for breathing gas identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de gas de respiración, adecuada para entornos marinos."
   },
   {
     "id": 5055,
     "name": "Oil Other Than Fuel",
-    "image": "/src/assets/ISO/5055"
+    "name_en": "Oil Other Than Fuel Pipe",
+    "name_es": "Cinta para Aceite No Combustible",
+    "image": "/src/assets/ISO/5055.png",
+    "isoNumber": "5055",
+    "description_en": "Durable pipe marking tape for oil (other than fuel) identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de aceite no combustible, adecuada para entornos marinos."
   },
   {
     "id": 5057,
     "name": "Thermal Fluid",
-    "image": "/src/assets/ISO/5057"
+    "name_en": "Thermal Fluid Pipe",
+    "name_es": "Cinta para Fluido Térmico",
+    "image": "/src/assets/ISO/5057.png",
+    "isoNumber": "5057",
+    "description_en": "Durable pipe marking tape for thermal fluid identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de fluido térmico, adecuada para entornos marinos."
   },
   {
     "id": 5059,
     "name": "Lubrication Oil for Gas Turbines",
-    "image": "/src/assets/ISO/5059"
+    "name_en": "Lubrication Oil for Gas Turbines Pipe",
+    "name_es": "Cinta para Aceite de Lubricación para Turbinas de Gas",
+    "image": "/src/assets/ISO/5059.png",
+    "isoNumber": "5059",
+    "description_en": "Durable pipe marking tape for gas turbine lubrication oil identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de aceite de lubricación de turbinas de gas, adecuada para entornos marinos."
   },
   {
     "id": 5060,
     "name": "Hydraulic Fluid",
-    "image": "/src/assets/ISO/5060"
+    "name_en": "Hydraulic Fluid Pipe",
+    "name_es": "Cinta para Fluido Hidráulico",
+    "image": "/src/assets/ISO/5060.png",
+    "isoNumber": "5060",
+    "description_en": "Durable pipe marking tape for hydraulic fluid identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de fluido hidráulico, adecuada para entornos marinos."
   },
   {
     "id": 5061,
     "name": "Lubricating Oil for Steam Turbines",
-    "image": "/src/assets/ISO/5061"
+    "name_en": "Lubricating Oil for Steam Turbines Pipe",
+    "name_es": "Cinta para Aceite de Lubricación para Turbinas de Vapor",
+    "image": "/src/assets/ISO/5061.png",
+    "isoNumber": "5061",
+    "description_en": "Durable pipe marking tape for steam turbine lubrication oil identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de aceite de lubricación de turbinas de vapor, adecuada para entornos marinos."
   },
   {
     "id": 5062,
     "name": "Lubrication Oil for Gears",
-    "image": "/src/assets/ISO/5062"
+    "name_en": "Lubrication Oil for Gears Pipe",
+    "name_es": "Cinta para Aceite de Lubricación para Engranajes",
+    "image": "/src/assets/ISO/5062.png",
+    "isoNumber": "5062",
+    "description_en": "Durable pipe marking tape for gear lubrication oil identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de aceite de lubricación de engranajes, adecuada para entornos marinos."
   },
   {
     "id": 5063,
     "name": "Lubricating oil for internal com. engines",
-    "image": "/src/assets/ISO/5063"
+    "name_en": "Lubricating Oil for Internal Combustion Engines Pipe",
+    "name_es": "Cinta para Aceite de Lubricación para Motores de Combustión Interna",
+    "image": "/src/assets/ISO/5063.png",
+    "isoNumber": "5063",
+    "description_en": "Durable pipe marking tape for internal combustion engine lubrication oil identification, suitable for marine environments.",    "description_es": "Cinta de marcado de tuberías duradera para identificación de aceite de lubricación de motores de combustión interna, adecuada para entornos marinos."
   },
   {
     "id": 5101,
     "name": "Steam",
-    "image": "/src/assets/ISO/5101"
+    "name_en": "Steam Pipe",
+    "name_es": "Cinta para Vapor",
+    "image": "/src/assets/ISO/5101.png",
+    "isoNumber": "5101",
+    "description_en": "Durable pipe marking tape for steam identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de vapor, adecuada para entornos marinos."
   },
   {
     "id": 5102,
     "name": "Steam for Heating purposes",
-    "image": "/src/assets/ISO/5102"
+    "name_en": "Steam for Heating Pipe",
+    "name_es": "Cinta para Vapor con Fines de Calefacción",
+    "image": "/src/assets/ISO/5102.png",
+    "isoNumber": "5102",
+    "description_en": "Durable pipe marking tape for heating steam identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de vapor para calefacción, adecuada para entornos marinos."
   },
   {
     "id": 5106,
     "name": "Exhaust Steam",
-    "image": "/src/assets/ISO/5106"
+    "name_en": "Exhaust Steam Pipe",
+    "name_es": "Cinta para Vapor de Escape",
+    "image": "/src/assets/ISO/5106.png",
+    "isoNumber": "5106",
+    "description_en": "Heat-resistant pipe marking tape for exhaust steam identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías resistente al calor para identificación de vapor de escape, adecuada para entornos marinos."
   },
   {
     "id": 5107,
     "name": "Supply Steam",
-    "image": "/src/assets/ISO/5107"
+    "name_en": "Supply Steam Pipe",
+    "name_es": "Cinta para Vapor de Suministro",
+    "image": "/src/assets/ISO/5107.png",
+    "isoNumber": "5107",
+    "description_en": "Durable pipe marking tape for supply steam identification, suitable for marine environments.",
+    "description_es": "Cinta de marcado de tuberías duradera para identificación de vapor de suministro, adecuada para entornos marinos."
   }
 ]

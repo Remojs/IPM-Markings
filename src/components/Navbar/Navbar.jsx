@@ -5,6 +5,22 @@ import gbFlag from '../../assets/lang-flag/gb.png';
 import esFlag from '../../assets/lang-flag/es.png';
 import logoComplete from '../../assets/logos/complete.png';
 
+// Icono SVG inline de WhatsApp
+const WhatsappIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+  </svg>
+);
+
+// Icono SVG inline de menú hamburguesa
+const MenuIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <line x1="3" y1="12" x2="21" y2="12"></line>
+    <line x1="3" y1="6" x2="21" y2="6"></line>
+    <line x1="3" y1="18" x2="21" y2="18"></line>
+  </svg>
+);
+
 const Navbar = ({ language, setLanguage }) => {
   const [scrollY, setScrollY] = useState(0);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -25,7 +41,6 @@ const Navbar = ({ language, setLanguage }) => {
       products: "Products",
       howItWorks: "How It Works",
       whyUs: "Why Us",
-      regulations: "Regulations",
       contact: "Contact",
       whatsapp: "WhatsApp"
     },
@@ -33,7 +48,6 @@ const Navbar = ({ language, setLanguage }) => {
       products: "Productos",
       howItWorks: "Cómo Funciona",
       whyUs: "Por Qué Nosotros",
-      regulations: "Regulaciones",
       contact: "Contacto",
       whatsapp: "WhatsApp"
     }
@@ -76,9 +90,6 @@ const Navbar = ({ language, setLanguage }) => {
           <a href="#why-us" className={styles.navLink}>
             {t.whyUs}
           </a>
-          <a href="#regulations" className={styles.navLink}>
-            {t.regulations}
-          </a>
           <a href="#contact" className={styles.navLink}>
             {t.contact}
           </a>
@@ -86,7 +97,7 @@ const Navbar = ({ language, setLanguage }) => {
         
         <div className={styles.rightSection}>
           <a href="#whatsapp" className={styles.actionButton}>
-            {t.whatsapp} <span>→</span>
+            <WhatsappIcon /> {t.whatsapp}
           </a>
           <button 
             className={styles.languageSwitch}
@@ -100,7 +111,7 @@ const Navbar = ({ language, setLanguage }) => {
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             aria-label="Toggle mobile menu"
           >
-            ☰
+            <MenuIcon />
           </button>
         </div>
       </div>
@@ -116,14 +127,11 @@ const Navbar = ({ language, setLanguage }) => {
           <a href="#why-us" className={styles.navLink}>
             {t.whyUs}
           </a>
-          <a href="#regulations" className={styles.navLink}>
-            {t.regulations}
-          </a>
           <a href="#contact" className={styles.navLink}>
             {t.contact}
           </a>
           <a href="#whatsapp" className={styles.actionButton}>
-            {t.whatsapp} <span>→</span>
+            <WhatsappIcon /> {t.whatsapp}
           </a>
           <button 
             className={styles.languageSwitch}

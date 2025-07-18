@@ -89,7 +89,12 @@ const ProductDetail = () => {
 
   // Use a placeholder image if product image is not available
   const getProductImage = (product) => {
-    return product.image || 'https://via.placeholder.com/600x400?text=Product+Image';
+    if (!product.image) return 'https://via.placeholder.com/600x400?text=Product+Image';
+    // Add .png extension if missing
+    if (!product.image.endsWith('.png') && product.image.includes('/src/assets/ISO/')) {
+      return `${product.image}.png`;
+    }
+    return product.image;
   };
 
   return (
@@ -114,22 +119,18 @@ const ProductDetail = () => {
             </div>
             
             <div className={styles.productInfo}>
-              <h1 className={styles.productTitle}>{product.name}</h1>
-              <p className={styles.productPrice}>${product.price}</p>
-              <p className={styles.productDescription}>{product.description}</p>
-              <p className={styles.productDimensions}>
-                <strong>{t.dimensions}</strong> {product.dimensions}
+              <h1 className={styles.productTitle}>
+                {language === 'en' 
+                  ? (product.name_en || `${product.name} Pipe`)
+                  : (product.name_es || `Cinta ${product.name}`)
+                }
+              </h1>
+              <p className={styles.productDescription}>
+                {language === 'en'
+                  ? (product.description_en || product.description || 'High-quality pipe marking tape for marine environments, compliant with BS1710 standards.')
+                  : (product.description_es || product.description || 'Cinta de marcado de tuberías de alta calidad para entornos marinos, conforme con los estándares BS1710.')
+                }
               </p>
-              
-              <h3 className={styles.featuresTitle}>{t.features}</h3>
-              <div className={styles.featuresList}>
-                {product.features.map((feature) => (
-                  <div key={feature} className={styles.feature}>
-                    <span className={styles.featureIcon}>✓</span>
-                    <span>{t.featureNames[feature]}</span>
-                  </div>
-                ))}
-              </div>
               
               <div className={styles.actionButtons}>
                 <a href="#contact" className={styles.primaryButton}>
