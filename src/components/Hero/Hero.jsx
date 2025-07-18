@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Hero.module.css';
+import scrollAnimation from '../../assets/animation/scroll.webm';
 
 const Hero = ({ language }) => {
   const translations = {
@@ -34,9 +35,10 @@ const Hero = ({ language }) => {
           {t.badge}
         </div>
         <h1 className={styles.title}>
-          {t.title} <span className={styles.titleSpan}>{t.titleSpan}</span>
+          <div className={styles.titleLine}>{t.title}</div>
+          <div className={styles.titleSpan}>{t.titleSpan}</div>
+          <div className={styles.titleLine}>{t.subtitle}</div>
         </h1>
-        <p className={styles.subtitle}>{t.subtitle}</p>
         <p className={styles.description}>{t.description}</p>
         <div className={styles.buttonGroup}>
           <a href="#products" className={styles.primaryButton}>
@@ -47,6 +49,7 @@ const Hero = ({ language }) => {
           </a>
         </div>
       </div>
+      <video src={scrollAnimation} autoPlay loop muted className={styles.scrollIndicator} />
     </section>
   );
 };

@@ -66,7 +66,7 @@
 .productPrice {
   font-size: 1.5rem;
   font-weight: 600;
-  color: #2563eb;
+  color: #991b1b;
   margin-bottom: 1.5rem;
 }
 
@@ -104,7 +104,7 @@
 }
 
 .featureIcon {
-  color: #2563eb;
+  color: #991b1b;
 }
 
 .actionButtons {
@@ -117,7 +117,7 @@
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background-color: #2563eb;
+  background-color: #991b1b;
   color: white;
   font-weight: 500;
   padding: 0.75rem 1.5rem;
@@ -127,7 +127,7 @@
 }
 
 .primaryButton:hover {
-  background-color: #1d4ed8;
+  background-color: #7f1d1d;
 }
 
 .secondaryButton {

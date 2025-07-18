@@ -86,14 +86,14 @@
 }
 
 .featureIcon {
-  color: #2563eb;
+  color: #991b1b;
 }
 
 .productButton {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background-color: #2563eb;
+  background-color: #991b1b;
   color: white;
   font-weight: 500;
   padding: 0.5rem 1rem;

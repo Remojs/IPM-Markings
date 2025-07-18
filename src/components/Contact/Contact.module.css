@@ -35,7 +35,7 @@
 }
 
 .contactInfo {
-  background-color: #2563eb;
+  background-color: #991b1b;
   border-radius: 0.5rem;
   padding: 2rem;
   color: white;
@@ -140,8 +140,8 @@
 
 .formInput:focus {
   outline: none;
-  border-color: #2563eb;
-  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+  border-color: #991b1b;
+  box-shadow: 0 0 0 3px rgba(153, 27, 27, 0.1);
 }
 
 .formTextarea {
@@ -156,15 +156,15 @@
 
 .formTextarea:focus {
   outline: none;
-  border-color: #2563eb;
-  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+  border-color: #991b1b;
+  box-shadow: 0 0 0 3px rgba(153, 27, 27, 0.1);
 }
 
 .submitButton {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background-color: #2563eb;
+  background-color: #991b1b;
   color: white;
   font-weight: 500;
   padding: 0.75rem 1.5rem;
@@ -177,7 +177,7 @@
 }
 
 .submitButton:hover {
-  background-color: #1d4ed8;
+  background-color: #7f1d1d;
 }
 
 @media (max-width: 768px) {
