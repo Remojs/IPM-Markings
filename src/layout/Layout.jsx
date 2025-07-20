@@ -5,7 +5,7 @@ import Footer from '../components/Footer/Footer';
 import styles from './Layout.module.css';
 
 const Layout = () => {
-  const [language, setLanguage] = useState('en');
+  const [language, setLanguage] = useState('es');
   const [showBackToTop, setShowBackToTop] = useState(false);
 
   useEffect(() => {
