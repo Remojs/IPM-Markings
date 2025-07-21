@@ -34,54 +34,56 @@ const ShipIcon = () => (
 );
 
 const WhyUs = ({ language }) => {
-  const translations = {
-    en: {
-      title: "Why Choose IPM Markings?",
-      experience: {
-        title: "38+ Years Experience",
-        description:
-          "Trusted by naval professionals worldwide since 1985, with proven expertise in marine safety solutions.",
-      },
-      compliance: {
-        title: "BS1710 Compliance",
-        description:
-          "All products meet or exceed international standards for pipe identification in marine environments.",
-      },
-      support: {
-        title: "Expert Support",
-        description:
-          "Dedicated technical team providing consultation and support for your specific marine applications.",
-      },
-      delivery: {
-        title: "Fast Delivery",
-        description: "Quick turnaround times with global shipping to keep your operations running smoothly.",
-      },
-      shipsEquipped: "Ships Equipped",
+const translations = {
+  en: {
+    title: "Why Choose IPM Markings?",
+    experience: {
+      title: "4 Years of Experience",
+      description:
+        "Delivering expert pipe identification solutions in marine environments since 2021 with a proven track record in safety.",
     },
-    es: {
-      title: "¿Por Qué Elegir IPM Markings?",
-      experience: {
-        title: "38+ Años de Experiencia",
-        description:
-          "Confiado por profesionales navales en todo el mundo desde 1985, con experiencia probada en soluciones de seguridad marina.",
-      },
-      compliance: {
-        title: "Cumplimiento BS1710",
-        description:
-          "Todos los productos cumplen o superan los estándares internacionales para la identificación de tuberías en entornos marinos.",
-      },
-      support: {
-        title: "Soporte Experto",
-        description:
-          "Equipo técnico dedicado que proporciona consulta y apoyo para sus aplicaciones marinas específicas.",
-      },
-      delivery: {
-        title: "Entrega Rápida",
-        description: "Tiempos de entrega rápidos con envío global para mantener sus operaciones funcionando sin problemas.",
-      },
-      shipsEquipped: "Barcos Equipados",
-    }
-  };
+    compliance: {
+      title: "International Standards",
+      description:
+        "All our products fully adhere to global marine pipe identification standards for maximum reliability.",
+    },
+    support: {
+      title: "24/7 Support",
+      description:
+        "Round‑the‑clock assistance to resolve your questions and technical needs at any time.",
+    },
+    delivery: {
+      title: "Optimized Delivery Times",
+      description:
+        "Delivery schedules fine‑tuned for reliable planning, ensuring your operations stay on track.",
+    },
+    shipsEquipped: "Ships Equipped",
+  },
+  es: {
+    title: "¿Por Qué Elegir IPM Markings?",
+    experience: {
+      title: "4 Años de Experiencia",
+      description:
+        "Ofreciendo soluciones de identificación de tuberías en entornos marinos desde 2021, con trayectoria comprobada en seguridad.",
+    },
+    compliance: {
+      title: "Estándares Internacionales",
+      description:
+        "Nuestros productos cumplen al 100 % con los estándares globales de identificación de tuberías en ambientes marinos.",
+    },
+    support: {
+      title: "Soporte 24/7",
+      description:
+        "Asistencia continua para resolver dudas y consultas técnicas en cualquier momento.",
+    },
+    delivery: {
+      title: "Tiempos de Entrega",
+      description:
+        "Cronogramas de entrega ajustados para una planificación confiable y sin sorpresas.",
+    },
+    shipsEquipped: "Barcos Equipados",
+  }
+};
 
   const t = translations[language];
 
@@ -129,13 +131,6 @@ const WhyUs = ({ language }) => {
               <p className={styles.featureDescription}>{feature.description}</p>
             </div>
           ))}
-        </div>
-
-        <div className={styles.statsContainer}>
-          <div className={styles.stat}>
-            <div className={styles.statValue}>5,000+</div>
-            <div className={styles.statLabel}>{t.shipsEquipped}</div>
-          </div>
         </div>
       </div>
     </section>
