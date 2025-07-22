@@ -19,22 +19,22 @@ const ArrowDownIcon = () => (
 const Hero = ({ language }) => {
   const translations = {
     en: {
-      badge: "Marine Safety Specialists Since 1985",
+      badge: "Marine Safety Specialists Since 2020",
       title: "Professional",
       titleSpan: "Pipe Identification",
       subtitle: "for Marine Environments",
       description:
-        "Industry-leading pipe marking tapes designed for ships, offshore platforms, and marine facilities. BS1710 compliant solutions trusted by naval professionals worldwide.",
+        "Industry-leading pipe marking tapes designed for ships, offshore platforms, and marine facilities. ISO-14726 compliant solutions trusted by naval professionals worldwide.",
       viewProducts: "View Products",
       requestQuote: "Request Quote"
     },
     es: {
-      badge: "Especialistas en Seguridad Marina Desde 1985",
+      badge: "Especialistas en Seguridad Marina Desde 2020",
       title: "Identificación",
       titleSpan: "Profesional de Tuberías",
       subtitle: "para Entornos Marinos",
       description:
-        "Cintas de marcado de tuberías líderes en la industria diseñadas para barcos, plataformas offshore e instalaciones marinas. Soluciones conformes con BS1710 confiadas por profesionales navales en todo el mundo.",
+        "Cintas de marcado de tuberías líderes en la industria diseñadas para barcos, plataformas offshore e instalaciones marinas. Soluciones conformes con ISO-14726 confiadas por profesionales navales en todo el mundo.",
       viewProducts: "Ver Productos",
       requestQuote: "Solicitar Presupuesto"
     }

@@ -38,9 +38,9 @@ const translations = {
   en: {
     title: "Why Choose IPM Markings?",
     experience: {
-      title: "4 Years of Experience",
+      title: "5 Years of Experience",
       description:
-        "Delivering expert pipe identification solutions in marine environments since 2021 with a proven track record in safety.",
+        "Delivering expert pipe identification solutions in marine environments since 2020 with a proven track record in safety.",
     },
     compliance: {
       title: "International Standards",
@@ -62,9 +62,9 @@ const translations = {
   es: {
     title: "¿Por Qué Elegir IPM Markings?",
     experience: {
-      title: "4 Años de Experiencia",
+      title: "5 Años de Experiencia",
       description:
-        "Ofreciendo soluciones de identificación de tuberías en entornos marinos desde 2021, con trayectoria comprobada en seguridad.",
+        "Ofreciendo soluciones de identificación de tuberías en entornos marinos desde 2020, con trayectoria comprobada en seguridad.",
     },
     compliance: {
       title: "Estándares Internacionales",
