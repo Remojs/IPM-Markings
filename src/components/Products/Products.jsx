@@ -6,9 +6,6 @@ import isoTable from '../../assets/ISO-Table.png';
 // Import a sample PDF file path (you need to add this file to your assets)
 import assetsPdf from '../../assets/IPM-Assets.pdf'; // Make sure to add this PDF file to your project
 
-// Import all ISO images using Vite's dynamic import
-const isoImages = import.meta.glob('../../assets/ISO/*.png');
-
 // Icono SVG inline para la flecha hacia la derecha
 const ArrowRightIcon = () => (
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -110,14 +107,20 @@ const Products = ({ language }) => {
   const getProductImage = (product) => {
     if (!product.image) return 'https://via.placeholder.com/300x200?text=Product+Image';
     
-    // If the product has an ISO number, use it to get the image
-    if (product.isoNumber) {
-      // Use dynamic import to ensure proper bundling in production
-      const imagePath = `../../assets/ISO/${product.isoNumber}.png`;
-      return new URL(imagePath, import.meta.url).href;
+    try {
+      // En Vercel, las imágenes necesitan ser importadas de forma diferente
+      if (product.isoNumber) {
+        // Utilizar un import dinámico para imagenes
+        const imageUrl = `/ISO/${product.isoNumber}.png`;
+        // Para desarrollo local, asegurarse de que la ruta sea correcta
+        return imageUrl;
+      }
+      
+      return product.image;
+    } catch (error) {
+      console.error(`Error loading image for product ${product.id}:`, error);
+      return 'https://via.placeholder.com/300x200?text=Image+Not+Found';
     }
-    
-    return product.image;
   };
 
   return (
