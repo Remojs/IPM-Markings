@@ -2,7 +2,6 @@ import React from 'react';
 import { useOutletContext } from 'react-router-dom';
 import Hero from '../components/Hero/Hero';
 import Products from '../components/Products/Products';
-import HowItWorks from '../components/HowItWorks/HowItWorks';
 import WhyUs from '../components/WhyUs/WhyUs';
 import Contact from '../components/Contact/Contact';
 
@@ -13,7 +12,6 @@ const Home = () => {
     <div>
       <Hero language={language} />
       <Products language={language} />
-      <HowItWorks language={language} />
       <WhyUs language={language} />
       <Contact language={language} />
     </div>

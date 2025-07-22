@@ -176,6 +176,13 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+.downloadButtonsContainer {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .downloadButton {
   display: inline-flex;
   align-items: center;

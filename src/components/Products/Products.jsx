@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import productsData from '../../data/products.json';
 import styles from './Products.module.css';
 import isoTable from '../../assets/ISO-Table.png';
+// Import a sample PDF file path (you need to add this file to your assets)
+import assetsPdf from '../../assets/IPM-Assets.pdf'; // Make sure to add this PDF file to your project
 
 // Icono SVG inline para la flecha hacia la derecha
 const ArrowRightIcon = () => (
@@ -36,6 +38,7 @@ const Products = ({ language }) => {
       isoStandardsTitle: "ISO Color Standards",
       isoStandardsDescription: "Our pipe marking tapes follow international ISO standards for color coding, ensuring consistency and safety across all marine applications.",
       downloadIsoTable: "Download ISO Color Chart",
+      downloadAssets: "Download Assets PDF",
       
       // Product features
       features: {
@@ -72,6 +75,7 @@ const Products = ({ language }) => {
       isoStandardsTitle: "Estándares de Color ISO",
       isoStandardsDescription: "Nuestras cintas de marcado de tuberías siguen los estándares internacionales ISO para codificación de colores, garantizando consistencia y seguridad en todas las aplicaciones marinas.",
       downloadIsoTable: "Descargar Tabla de Colores ISO",
+      downloadAssets: "Descargar PDF de Activos",
       
       // Product features
       features: {
@@ -154,13 +158,22 @@ const Products = ({ language }) => {
           <p className={styles.isoDescription}>{t.isoStandardsDescription}</p>
           <div className={styles.isoTableContainer}>
             <img src={isoTable} alt="ISO Standards Table" className={styles.isoTableImage} />
-            <a 
-              href={isoTable} 
-              download="ISO-TapesTable_2024.png" 
-              className={styles.downloadButton}
-            >
-              {t.downloadIsoTable} <DownloadIcon />
-            </a>
+            <div className={styles.downloadButtonsContainer}>
+              <a 
+                href={isoTable} 
+                download="ISO-TapesTable_2024.png" 
+                className={styles.downloadButton}
+              >
+                {t.downloadIsoTable} <DownloadIcon />
+              </a>
+              <a 
+                href={assetsPdf} 
+                download="IPM-Assets.pdf" 
+                className={styles.downloadButton}
+              >
+                {t.downloadAssets} <DownloadIcon />
+              </a>
+            </div>
           </div>
         </div>
       </div>

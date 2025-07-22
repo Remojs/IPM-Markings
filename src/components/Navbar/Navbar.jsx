@@ -39,14 +39,12 @@ const Navbar = ({ language, setLanguage }) => {
   const translations = {
     en: {
       products: "Products",
-      howItWorks: "How It Works",
       whyUs: "Why Us",
       contact: "Contact",
       whatsapp: "WhatsApp"
     },
     es: {
       products: "Productos",
-      howItWorks: "Cómo Funciona",
       whyUs: "Por Qué Nosotros",
       contact: "Contacto",
       whatsapp: "WhatsApp"
@@ -84,9 +82,6 @@ const Navbar = ({ language, setLanguage }) => {
           <a href="#products" className={styles.navLink}>
             {t.products}
           </a>
-          <a href="#how-it-works" className={styles.navLink}>
-            {t.howItWorks}
-          </a>
           <a href="#why-us" className={styles.navLink}>
             {t.whyUs}
           </a>
@@ -120,9 +115,6 @@ const Navbar = ({ language, setLanguage }) => {
         <div className={styles.mobileMenu}>
           <a href="#products" className={styles.navLink}>
             {t.products}
-          </a>
-          <a href="#how-it-works" className={styles.navLink}>
-            {t.howItWorks}
           </a>
           <a href="#why-us" className={styles.navLink}>
             {t.whyUs}
