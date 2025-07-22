@@ -91,7 +91,7 @@ const Navbar = ({ language, setLanguage }) => {
         </div>
         
         <div className={styles.rightSection}>
-          <a href="#whatsapp" className={styles.actionButton}>
+          <a href="https://wa.me/5491159259662?text=Hello%20IPM%20Markings,%20I%27m%20interested%20in%20your%20products" className={styles.actionButton}>
             <WhatsappIcon /> {t.whatsapp}
           </a>
           <button 
@@ -122,7 +122,7 @@ const Navbar = ({ language, setLanguage }) => {
           <a href="#contact" className={styles.navLink}>
             {t.contact}
           </a>
-          <a href="#whatsapp" className={styles.actionButton}>
+          <a href="https://wa.me/5491159259662?text=Hello%20IPM%20Markings,%20I%27m%20interested%20in%20your%20products" className={styles.actionButton}>
             <WhatsappIcon /> {t.whatsapp}
           </a>
           <button 
